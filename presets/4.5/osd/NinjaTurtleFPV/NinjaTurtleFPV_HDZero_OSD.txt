@@ -9,13 +9,12 @@
 #$ DESCRIPTION: -----------
 #$ DESCRIPTION: Sets OSD elements and position.
 #$ DESCRIPTION: Intended to be used with HDzero cameras configured with 16:9 aspect ratio.
-#$ DESCRIPTION: Also, it sets the video mode to HD which works with DJI VTXes.
+#$ DESCRIPTION: Furthermore, it sets display port to MSP and video mode to HD which should work with DJI air units too.
 #$ DESCRIPTION: 
 #$ INCLUDE: presets/4.4/osd/defaults.txt
 
-set vcd_video_system = HD
 set osd_displayport_device = MSP
-
+set vcd_video_system = HD
 set osd_warn_bitmask = 40959
 set osd_rssi_dbm_alarm = -100
 set osd_core_temp_alarm = 80
@@ -27,10 +26,10 @@ set osd_link_tx_power_pos = 24
 set osd_rssi_dbm_pos = 1099
 set osd_tim_2_pos = 3596
 set osd_flymode_pos = 1517
-set osd_throttle_pos = 2551
+set osd_throttle_pos = 3588
 set osd_vtx_channel_pos = 533
 set osd_current_pos = 2567
-set osd_mah_drawn_pos = 2537
+set osd_mah_drawn_pos = 489
 set osd_craft_name_pos = 541
 set osd_pilot_name_pos = 2578
 set osd_gps_speed_pos = 542
@@ -40,7 +39,7 @@ set osd_home_dist_pos = 536
 set osd_flight_dist_pos = 153
 set osd_altitude_pos = 17924
 set osd_power_pos = 388
-set osd_warnings_pos = 14677
+set osd_warnings_pos = 14773
 set osd_avg_cell_voltage_pos = 2528
 set osd_battery_usage_pos = 385
 set osd_disarmed_pos = 2294
@@ -49,8 +48,5 @@ set osd_esc_tmp_pos = 1484
 set osd_core_temp_pos = 3564
 set osd_stat_bitmask = 1073825444
 set osd_gps_sats_show_pdop = OFF
-set osd_displayport_device = MSP
 set osd_canvas_width = 50
 set osd_canvas_height = 18
-
-
