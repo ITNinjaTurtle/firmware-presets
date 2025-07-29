@@ -6501,8 +6501,27 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/4.5/osd/NinjaTurtleFPV/NinjaTurtleFPV_Analog_OSD.txt",
+      "hash": "d5a70ab93bbc6d06c8d9065e257300c4b45a22f53e0f6f6deb9d0f9de1011184",
+      "title": "NinjaTurtleFPV Analog OSD",
+      "firmware_version": [
+        "4.4",
+        "4.5"
+      ],
+      "category": "OSD",
+      "status": "COMMUNITY",
+      "keywords": [
+        "Analog",
+        "OSD",
+        "NinjaTurtleFPV",
+        "freestyle"
+      ],
+      "author": "NinjaTurtleFPV",
+      "priority": 0
+    },
+    {
       "fullPath": "presets/4.5/osd/NinjaTurtleFPV/NinjaTurtleFPV_HDZero_OSD.txt",
-      "hash": "5b370b00594e49d1da407288b8d22b88dcc3372911830a863c4a4febbadbcc4f",
+      "hash": "a64c05b424a9a4c27f6f5855527c7012dd697083e50d8d3322acf1708d96e569",
       "title": "NinjaTurtleFPV HDzero OSD",
       "firmware_version": [
         "4.4",
