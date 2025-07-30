@@ -7,14 +7,15 @@
 #$ AUTHOR: NinjaTurtleFPV 
 #$ DESCRIPTION: NinjaTurtleFPV's HDZero OSD settings used in freestyle.
 #$ DESCRIPTION: -----------
-#$ DESCRIPTION: Sets OSD elements and position.
-#$ DESCRIPTION: Intended to be used with HDzero cameras configured with 16:9 aspect ratio.
-#$ DESCRIPTION: Furthermore, it sets display port to MSP and video mode to HD which should work with DJI air units too.
+#$ DESCRIPTION: Sets desired OSD elements and position.
+#$ DESCRIPTION: Intended to be used with HDzero cameras configured with 16:9 aspect ratio. 
+#$ DESCRIPTION: Also, it sets the pilot name to NinjaTurtleFPV as this is displayed in the OSD.
+#$ DESCRIPTION: Furthermore, it sets display port to MSP and video mode to HD.
 #$ DESCRIPTION: 
 #$ INCLUDE: presets/4.4/osd/defaults.txt
 
-set osd_displayport_device = MSP
 set vcd_video_system = HD
+set pilot_name = NinjaTurtleFPV
 set osd_warn_bitmask = 40959
 set osd_rssi_dbm_alarm = -100
 set osd_core_temp_alarm = 85
@@ -23,17 +24,17 @@ set osd_logo_on_arming_duration = 10
 set osd_tim2 = 1025
 set osd_vbat_pos = 2560
 set osd_rssi_pos = 88
-set osd_link_quality_pos = 3564
+set osd_link_quality_pos = 3588
 set osd_link_tx_power_pos = 24
 set osd_rssi_dbm_pos = 1099
 set osd_tim_2_pos = 3596
 set osd_flymode_pos = 1517
-set osd_throttle_pos = 2551
+set osd_throttle_pos = 542
 set osd_vtx_channel_pos = 533
 set osd_current_pos = 519
 set osd_mah_drawn_pos = 489
 set osd_craft_name_pos = 541
-set osd_pilot_name_pos = 2578
+set osd_pilot_name_pos = 2577
 set osd_gps_speed_pos = 542
 set osd_gps_sats_pos = 1067
 set osd_home_dir_pos = 535
